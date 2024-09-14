@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Online</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1 id="titulo">Bienvenido</h1>
+    </header>
+    <main>
+        <div class="buscador">
+            <input type="text" id="buscador-input" placeholder="Buscar productos...">
+        </div>
+        <button id="ver-carrito">Ver Carrito (0)</button>
+        <section id="carrito" class="hidden">
+            <h2>Carrito</h2>
+            <ul id="carrito-items"></ul>
+            <p id="carrito-total">Total: $0</p>
+        </section>
+        <section id="producto-lista">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="anio-actual"></span> Mi Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

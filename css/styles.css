@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.navbar nav ul li {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.navbar nav ul li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+.navbar nav ul li a:hover {
+    color: chocolate;
+}
+
+.navbar nav ul li img {
+    height: 3.5rem;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 1rem;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buscador input {
+    width: calc(100% - 4rem);
+    padding: .25rem .5rem;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.producto-info {
+    flex: 1;
+}
+
+.producto-imagen {
+    max-width: 150px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}
+
+#cart {
+    border-top: 1px solid #ddd;
+    padding-top: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

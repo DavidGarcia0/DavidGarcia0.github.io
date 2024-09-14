@@ -17,6 +17,8 @@ const productos = [
     { id: 16, nombre: "Mate Cocido", priceUSD: 2.94, imagen: "https://www.lavirginia.com.ar/wp-content/uploads/2021/12/779015260241-02-scaled.jpg" }
 ];
 
+// No agregué un archivo JSON con los datos de los productos porque mi navegador no me lo permitía, por la política CORS, por lo que nó podía verificar que los datos estuvieran conectados correctamente, ni testear la página. En cambio, empleé una API.
+
 const carritoKey = 'carrito'; 
 const carrito = cargarCarrito(); 
 
